@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\WorkSpace\\PyCharm\\TensorFlow\\Others\\model.ckpt"
+all_model_checkpoint_paths: "C:\\WorkSpace\\PyCharm\\TensorFlow\\Others\\model.ckpt"
