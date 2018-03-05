@@ -1,6 +1,10 @@
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 
+# data(n*784)
+# -> con1(3*3*1 * 64) -> pool1(2*2) -> con2(3*3*64 * 128) -> pool2(2*2)
+# -> fc1(1024) -> fc2(10)
+
 mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
 trainimg = mnist.train.images
 trainlabel = mnist.train.labels
